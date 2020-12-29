@@ -1,7 +1,4 @@
 """
-  Joseph Lartey
-  Ramya Sonar
-  Assignment 2
   N-Grams
 """
 run = True
@@ -32,8 +29,6 @@ while run:
       for para in paragraphs: 
         formated_text += para.text
       return formated_text
-    
-    
     
     #Create dictionary to store book title as key and EBook number as value
     #You should *not* hard code file names or the number of files your program is able to process.
@@ -69,8 +64,7 @@ while run:
                 mytext = mytext + mytext
                 
  
-    
-    
+   
     
     #Tokenize words using regex
     #convert all text to lower case, and make sure to include punctuation in the n-gram models.
